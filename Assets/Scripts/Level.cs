@@ -180,7 +180,7 @@ public class Level : MonoBehaviour
             float maxHeight = totalHeight - gapSize * 0.5f - heightMargin;
 
             float height = UnityEngine.Random.Range(minHeight, maxHeight);
-            createGappedPipes(50f, gapSize, 125f);
+            createGappedPipes(height, gapSize, 125f);
         }
     }
 
